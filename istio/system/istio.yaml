@@ -87,7 +87,7 @@ spec:
   interval: 1h0m0s
   values:
     autoscaling:
-      enabled: false
+      enabled: trie
     resources:
       requests:
         cpu: 10m
